@@ -3,7 +3,7 @@
 
 /*  BODY */
 body {
-  background-color: antiquewhite;
+  background-color: #222;
   font-family: "Raleway", sans-serif;
   overflow: hidden;
 }
@@ -20,6 +20,7 @@ body {
 #nom {
   display: flex;
   flex-direction: column;
+  
 }
 #nom input {
   padding: 15px 80px;
@@ -29,15 +30,17 @@ body {
 /* TITULO */
 .titulo {
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
+  color: #f7df1e;
 }
 
 /* NOMBRE DEL USUARIO - BIENVENIDA */
 #nombreUsuario {
   text-align: center;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 34px;
+  color: aliceblue;
 }
 
 /* PREGUNTAS */
@@ -46,18 +49,22 @@ body {
 }
 
 .preguntas p {
+  color: #f7df1e;
+
   text-align: center;
   margin-top: 50px;
 }
 .preguntas_respuestas label {
   margin-right: 32px;
+  color: aliceblue;
+
 }
 
 /* BOTONES */
 button {
   text-decoration: none;
-  color: #ffffff;
-  background-color: rgb(226, 16, 135);
+  color: #222;
+  background-color: #f7df1e;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 24px;
