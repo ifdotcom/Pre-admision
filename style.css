@@ -1,0 +1,76 @@
+/* IMPORT DE FUENTE  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+
+/*  BODY */
+body {
+  background-color: antiquewhite;
+  font-family: "Raleway", sans-serif;
+  overflow: hidden;
+}
+
+/* CONTENEDOR GENERAL */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* INPUT QUE PIDE EL NOMBRE DE USUARIO */
+#nom {
+  display: flex;
+  flex-direction: column;
+}
+#nom input {
+  padding: 15px 80px;
+  text-align: center;
+}
+
+/* TITULO */
+.titulo {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* NOMBRE DEL USUARIO - BIENVENIDA */
+#nombreUsuario {
+  text-align: center;
+  font-weight: 500;
+  font-size: 34px;
+}
+
+/* PREGUNTAS */
+.preguntas {
+  text-align: center;
+}
+
+.preguntas p {
+  text-align: center;
+  margin-top: 50px;
+}
+.preguntas_respuestas label {
+  margin-right: 32px;
+}
+
+/* BOTONES */
+button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(226, 16, 135);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* MOSTRAR/OCULTAR FORMULARIO DE PRGUNTAS */
+
+#formulario {
+  display: none;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- contenedor general -->
+    <div class="container">
+      <!-- contendor de preguntas y respuestas -->
+      <div class="contenido">
+        <!-- sección para mostrar el nombre del usuario  -->
+        <section id="nombreUsuario"></section>
+        <!-- fin sección para mostrar el nombre del usuario  -->
+
+        <!-- titulo de la trivia -->
+        <header class="titulo">
+          <h1>Hablemos de Rock!!</h1>
+        </header>
+        <!-- fin titulo de la trivia -->
+
+        <!-- contenedor para pedir el nombre al usuario -->
+        <div class="nom" id="nom">
+          <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre"/>
+          <button type="submit" id="jugar">Jugar</button>
+        </div>
+        <!-- fin contenedor para pedir el nombre al usuario -->
+
+        <!-- formulario que contiene las preguntas -->
+        <form id="formulario">
+          <div class="preguntas">
+            <p>
+              1. ¿Cuál es la banda con mayor número de reporducciones en
+              Spotify?
+            </p>
+            <div class="preguntas_respuestas">
+              <input
+                type="radio"
+                id="respuestaUno"
+                name="respuesta"
+                value="KarolG"
+              />
+              <label for="respuestaUno">Karol G</label>
+              <input
+                type="radio"
+                id="respuestaDos"
+                name="respuesta"
+                value="Queen"
+              />
+              <label for="respuestaDos">Queen</label>
+              <input
+                type="radio"
+                id="respuestaTres"
+                name="respuesta"
+                value="TheBeatles"
+              />
+              <label for="respuestaTres">The Beatles</label>
+            </div>
+            <p>2. ¿En que año se presento U2 en México?</p>
+            <div class="preguntas_respuestas">
+              <input
+                type="radio"
+                id="respuestaUno_Dos"
+                name="respuesta1"
+                value="1997"
+              />
+              <label for="respuestaUno_Dos">1997</label>
+
+              <input
+                type="radio"
+                id="respuestaDos_Dos"
+                name="respuesta1"
+                value="2000"
+              />
+              <label for="respuestaDos_Dos">2000</label>
+
+              <input
+                type="radio"
+                id="respuestaTres_Dos"
+                name="respuesta1"
+                value="1800"
+              />
+              <label for="respuestaTres_Dos">1800</label>
+            </div>
+            <div class="boton">
+              <button type="submit" id="boton1">Enviar</button>
+            </div>
+          </div>
+        </form>
+        <!-- fin formulario que contiene las preguntas -->
+        <!-- seccion donde aparecen los resultados -->
+        <section id="results"></section>
+        <!-- fin seccion donde aparecen los resultados -->
+      </div>
+      <!-- fin contendor de preguntas y respuestas -->
+    </div>
+    <!-- fin contenedor general -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
